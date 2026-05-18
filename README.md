@@ -194,4 +194,5 @@ Rua Francisco Marques, 2010 — Franca, SP · 14406-652
 
 <div align="center">
   <sub>© 2025 Montanha Lanches · Franca, SP · Sabor de verdade.</sub>
+  <sub>Feito com 💜 por @Juvinho</sub>
 </div>
