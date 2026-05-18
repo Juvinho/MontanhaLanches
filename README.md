@@ -10,7 +10,7 @@ Landing page do Montanha Lanches, criada para divulgar cardapio, horarios e loca
 - Mapa/contato
 
 ## Capturas de tela
-| Home | Cardapio | Localizacao |
+| Home | Foto Interior | Outro Interior |
 | --- | --- | --- |
 | ![Home](assets/unnamed.webp) | ![Cardapio](assets/unnamed%20(1).webp) | ![Localizacao](assets/unnamed%20(2).webp) |
 
