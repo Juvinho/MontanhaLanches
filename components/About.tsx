@@ -73,21 +73,29 @@ function About() {
         {/* Story text */}
         <div className="p-6 md:p-12 lg:p-24 border-b-4 lg:border-b-0 lg:border-r-4 border-brand-fg flex flex-col gap-8 justify-center">
           <p className="reveal font-body text-xl md:text-2xl leading-relaxed">
-            Tudo começou em 1997, num ponto pequeno no Centro de Franca. A ideia era simples: servir lanches de verdade, sem economizar no recheio e sem frescura no atendimento.
+            Fundado em 1997, o Montanha Lanches nasceu em Franca com uma proposta simples e direta.{' '}
+            <span style={{ background: '#C0392B22', border: '1px dashed #C0392B', padding: '0 6px', borderRadius: 2, color: '#C0392B', fontSize: '0.85em' }}>
+              [ Adicionar história de origem — onde começou, quem fundou, como surgiu o nome ]
+            </span>
           </p>
 
           <blockquote className="reveal border-l-4 border-brand-primary pl-6 py-2">
-            <p className="font-display text-3xl md:text-4xl uppercase leading-tight text-brand-accent">
-              "Um hambúrguer que valha a fome."
+            <p className="font-display text-3xl md:text-4xl uppercase leading-tight" style={{ color: '#C0392B66' }}>
+              [ Frase marcante do dono ou slogan da casa ]
             </p>
           </blockquote>
 
           <p className="reveal font-body text-xl md:text-2xl leading-relaxed">
-            A fila não demorou a crescer. O Montanha virou ponto de encontro — da galera, das famílias, de quem sai do trabalho e de quem só quer uma boa noite com um lanche na mão.
+            <span style={{ background: '#C0392B22', border: '1px dashed #C0392B', padding: '0 6px', borderRadius: 2, color: '#C0392B', fontSize: '0.85em' }}>
+              [ Conte como o negócio cresceu, o que torna o Montanha especial — diferencial, público, ambiente ]
+            </span>
           </p>
 
           <p className="reveal font-body text-xl md:text-2xl leading-relaxed">
-            Hoje são duas unidades em Franca, mais de 50 itens no cardápio e uma certeza: aqui, cada lanche é feito com cuidado, do pão à montagem.
+            Hoje o Montanha Lanches conta com duas unidades em Franca e mais de 50 itens no cardápio.{' '}
+            <span style={{ background: '#C0392B22', border: '1px dashed #C0392B', padding: '0 6px', borderRadius: 2, color: '#C0392B', fontSize: '0.85em' }}>
+              [ Adicionar detalhe sobre o cardápio, ingredientes ou forma de preparo ]
+            </span>
           </p>
 
           {/* Stats */}
