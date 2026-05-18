@@ -1,8 +1,10 @@
 function ThreeBackground() {
   const { useEffect, useRef } = window.React;
   const canvasRef = useRef(null);
+  const isMobile = 'ontouchstart' in window || window.innerWidth < 768;
 
   useEffect(() => {
+    if (isMobile) return;
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
@@ -142,6 +144,8 @@ function ThreeBackground() {
       window.removeEventListener('resize', resize);
     };
   }, []);
+
+  if (isMobile) return null;
 
   return (
     <canvas
