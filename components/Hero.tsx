@@ -77,7 +77,7 @@ function Hero() {
       <div className="relative max-w-7xl w-full mx-auto flex flex-col items-start gap-8 z-10">
         <h1
           ref={titleRef}
-          className="text-4xl sm:text-5xl md:text-[9vw] leading-[0.85] font-display uppercase text-brand-fg tracking-[-0.03em] max-w-[12ch] flex flex-col"
+          className="text-6xl sm:text-6xl md:text-[9vw] leading-[0.85] font-display uppercase text-brand-fg tracking-[-0.03em] max-w-[12ch] flex flex-col"
         >
           <span className="block overflow-hidden"><span className="block">O sabor</span></span>
           <span className="block overflow-hidden"><span className="block">de <span className="text-brand-primary">verdade.</span></span></span>
